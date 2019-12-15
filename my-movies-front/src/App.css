@@ -8,3 +8,20 @@
     max-height: 550px;
     margin-right: 10px;
 }
+
+.NewMovie form {
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.NewMovie label,
+.NewMovie input {
+    display: block;
+}
+
+.NewMovie input {
+    border: 1px solid #f4f4;
+    padding: 10px;
+    border-radius: 3px;
+    width: 20%;
+}
