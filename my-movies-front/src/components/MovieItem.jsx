@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MovieItem = ({title, director, released, poster_url, rate, sum_up, genre, isUnder16}) => (
+const MovieItem = ({idMovie, title, director, released, poster_url, rate, sum_up, genre, isUnder16}) => (
     <div className="MovieItem">
         <img alt={title} src={poster_url}/>
         <div>
